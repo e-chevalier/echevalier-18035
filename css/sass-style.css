@@ -1,5 +1,7 @@
 /* COLORS */
 /* color palette */
+/*#1b0224
+#BC04BF*/
 /* font-weight */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
@@ -27,11 +29,11 @@ body {
 }
 
 .bg-purple {
-  background-color: #BC04BF;
+  background-color: #1b0224;
 }
 
 .colorPurple {
-  color: #BC04BF;
+  color: #1b0224;
 }
 
 .bg-gray {
@@ -123,7 +125,7 @@ body {
 }
 
 .banner--video {
-  height: 75vh;
+  height: 90vh;
   min-height: 25rem;
 }
 
@@ -385,18 +387,18 @@ body {
 }
 
 .event__title {
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
 .event__info {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .event__date {
   color: #D9048E;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-family: "Cabin", sans-serif;
   font-weight: 600;
   font-style: italic;
@@ -486,6 +488,6 @@ body {
 /**** CHANGE COLOR RADIO CHECK ****/
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #D9048E;
-  border-color: #BC04BF;
+  border-color: #1b0224;
 }
 /*# sourceMappingURL=sass-style.css.map */

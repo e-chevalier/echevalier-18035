@@ -80,7 +80,7 @@ body{
 }
 
 .banner--video{
-    height: 75vh;
+    height: 90vh;
     min-height: 25rem; 
 }
 
@@ -283,18 +283,18 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 }
 
 .event__title{
-    font-size: 3rem;
+    font-size: 1.8rem;
     font-family:$font-roboto;
     font-weight: $font-regular;
 }
 
 .event__info{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .event__date{
     color: $color-pink;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-family: $font-cabin;
     font-weight: $font-semi-bold;
     font-style: italic;
