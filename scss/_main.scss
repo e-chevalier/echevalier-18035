@@ -266,11 +266,26 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 }
 
 .event__date{
-    color: $color-pink;
+    min-width: 15rem;
+    max-width: 20rem;
     font-size: 1.3rem;
     font-family: $font-cabin;
     font-weight: $font-semi-bold;
     font-style: italic;
+    border: 2px dashed $color-pink;
+    text-align: center;
+    
+    a{
+        text-decoration: none;
+        color: $main-font-color;
+        &:hover{
+            color: $color-pink;
+            border-color: $color-pink;
+        }
+    }
+    i{
+        padding: 0 0.2em;
+    }
 }
 
 /******* FOOTER ******/

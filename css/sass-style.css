@@ -376,11 +376,28 @@ body {
 }
 
 .event__date {
-  color: #D9048E;
+  min-width: 15rem;
+  max-width: 20rem;
   font-size: 1.3rem;
   font-family: "Cabin", sans-serif;
   font-weight: 600;
   font-style: italic;
+  border: 2px dashed #D9048E;
+  text-align: center;
+}
+
+.event__date a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.event__date a:hover {
+  color: #D9048E;
+  border-color: #D9048E;
+}
+
+.event__date i {
+  padding: 0 0.2em;
 }
 
 /******* FOOTER ******/
