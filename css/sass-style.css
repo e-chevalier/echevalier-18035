@@ -50,8 +50,8 @@ body {
 }
 
 .flickerAnimation {
-  -webkit-animation: flicker2 1.5s infinite alternate;
-          animation: flicker2 1.5s infinite alternate;
+  -webkit-animation: flicker 1.5s infinite alternate;
+          animation: flicker 1.5s infinite alternate;
 }
 
 /**** FONTS ROBOTO *****/
@@ -217,8 +217,8 @@ body {
 }
 
 .neonSign--effect {
-  -webkit-animation: flicker2 1s infinite alternate;
-          animation: flicker2 1s infinite alternate;
+  -webkit-animation: flicker 1s infinite alternate;
+          animation: flicker 1s infinite alternate;
 }
 
 /***** MINI BANNER MOBILE ******/

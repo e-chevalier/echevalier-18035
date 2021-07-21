@@ -42,7 +42,7 @@ body{
 }
 
 .flickerAnimation{
-    animation: flicker2 1.5s infinite alternate;
+    animation: flicker 1.5s infinite alternate;
 }
 
 /**** FONTS ROBOTO *****/
@@ -63,8 +63,6 @@ body{
     }
 }
     
-
-
 /**** BANNER ****/
 
 .banner {
@@ -185,7 +183,7 @@ body{
 }
 
 .neonSign--effect{
-    animation: flicker2 1s infinite alternate;
+    animation: flicker 1s infinite alternate;
 }
 
 
