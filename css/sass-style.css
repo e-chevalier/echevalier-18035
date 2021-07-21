@@ -199,28 +199,6 @@ body {
   color: #D9048E;
 }
 
-/***** NEOSIGN  *****/
-.neonSign {
-  font-size: 1.5em;
-  font-weight: 300;
-  padding: 0.3em 0.3em;
-  color: #FAFAFA;
-}
-
-.neonSign--white a {
-  text-decoration: none;
-  color: #FAFAFA;
-}
-
-.neonSign--white a:hover {
-  font-weight: 400;
-}
-
-.neonSign--effect {
-  -webkit-animation: flicker 1s infinite alternate;
-          animation: flicker 1s infinite alternate;
-}
-
 /***** MINI BANNER MOBILE ******/
 .miniBanner {
   color: #FAFAFA;

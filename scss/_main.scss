@@ -161,32 +161,6 @@ body{
     }
 }
 
-
-/***** NEOSIGN  *****/
-
-.neonSign{
-    font-size: 1.5em;
-    font-weight: $font-light;
-    padding: 0.3em 0.3em;
-    color: $main-font-color;
-   
-}
-
-.neonSign--white{
-    a{
-        text-decoration: none;
-        color: $main-font-color;
-        &:hover{
-            font-weight: $font-regular;
-        }
-    }
-}
-
-.neonSign--effect{
-    animation: flicker 1s infinite alternate;
-}
-
-
 /***** MINI BANNER MOBILE ******/
 .miniBanner{
     color: $main-font-color;
