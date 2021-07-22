@@ -470,8 +470,7 @@ body {
 }
 
 .button--hover:hover {
-  font-weight: 700;
-  border: 3px solid #212f42;
+  border: 2px solid #212f42;
 }
 
 .button--theme-purple {
@@ -479,7 +478,7 @@ body {
   background: -webkit-gradient(linear, left top, right top, color-stop(34%, #bc04bf), color-stop(75%, #d9048e));
   background: linear-gradient(90deg, #bc04bf 34%, #d9048e 75%);
   border-radius: 10px 10px 10px 10px;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
 }
 
 /**** CHANGE COLOR RADIO CHECK ****/
