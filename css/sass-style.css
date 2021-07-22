@@ -37,7 +37,7 @@ body {
 }
 
 .bg-gray {
-  background-color: #212f42;
+  background-color: #191f27;
 }
 
 .border-purple {
@@ -414,11 +414,11 @@ body {
 }
 
 .footer__schedule {
-  background-color: #212f42;
+  background-color: #191f27;
 }
 
 .footer__socialMedia {
-  background-color: #212f42;
+  background-color: #191f27;
   color: #FAFAFA;
 }
 
@@ -431,7 +431,7 @@ body {
 }
 
 .footer__address {
-  background-color: #212f42;
+  background-color: #191f27;
   color: #FAFAFA;
   font-size: 1rem;
 }
@@ -453,7 +453,7 @@ body {
 }
 
 .footer--bgGray {
-  background-color: #212f42;
+  background-color: #191f27;
 }
 
 /**** BUTTON ****/
@@ -470,7 +470,7 @@ body {
 }
 
 .button--hover:hover {
-  border: 2px solid #212f42;
+  border: 2px solid #191f27;
 }
 
 .button--theme-purple {
