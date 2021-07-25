@@ -27,14 +27,14 @@ body {
 }
 
 .bg-purple {
-  background-color: #1b0224;
+  background-color: #BC04BF;
 }
 
 .colorPurple {
-  color: #1b0224;
+  color: #BC04BF;
 }
 
-.bg-gray {
+.bg-darkviolet {
   background-color: #1F0338;
 }
 
@@ -380,7 +380,7 @@ body {
   font-family: "Cabin", sans-serif;
   font-weight: 600;
   font-style: italic;
-  border: 2px dashed #D9048E;
+  border: 2px solid #D9048E;
   text-align: center;
 }
 
@@ -439,11 +439,11 @@ body {
 }
 
 .footer__goUp a {
-  color: #D9048E;
+  color: #BC04BF;
 }
 
-.footer__goUp p {
-  font-size: 0.6rem;
+.footer__goUp a:hover {
+  color: #D9048E;
 }
 
 .footer--bgDark {
@@ -472,9 +472,7 @@ body {
 }
 
 .button--theme-purple {
-  background: #bc04bf;
-  background: -webkit-gradient(linear, left top, right top, color-stop(34%, #bc04bf), color-stop(75%, #d9048e));
-  background: linear-gradient(90deg, #bc04bf 34%, #d9048e 75%);
+  background: #BC04BF;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid transparent;
 }
@@ -482,6 +480,6 @@ body {
 /**** CHANGE COLOR RADIO CHECK ****/
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #D9048E;
-  border-color: #1b0224;
+  border-color: #BC04BF;
 }
 /*# sourceMappingURL=sass-style.css.map */
