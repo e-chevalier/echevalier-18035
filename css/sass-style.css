@@ -450,6 +450,10 @@ body {
   color: #D9048E;
 }
 
+.footer__goUp p {
+  font-size: 0.6rem;
+}
+
 .footer--bgDark {
   background-color: #080808;
 }
