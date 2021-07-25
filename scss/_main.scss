@@ -29,9 +29,14 @@ body{
     color: $color-purple;
 }
 
+.colorWhite{
+    color: $main-font-color;
+}
+
 .bg-darkviolet{
     background-color: $color-darkviolet;
 }
+
 .border-purple{
     border-top: $color-pink 3px solid;
     border-bottom: $color-pink 3px solid;
@@ -325,7 +330,7 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 .footer__goUp{
     background-color: $main-bg-color;
     a{
-        color:$color-purple;
+        color:$main-font-color;
         &:hover{
             color:$color-pink;
         }
@@ -360,7 +365,7 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 }
 
 .button--theme-purple{
-    background: $color-purple;
+    background: $color-pink;
     border-radius: 10px 10px 10px 10px;
     border: 2px solid transparent;
 }
@@ -368,5 +373,5 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 /**** CHANGE COLOR RADIO CHECK ****/
 .custom-radio .custom-control-input:checked~.custom-control-label::before{
     background-color: $color-pink;
-    border-color: $color-purple;
+    border-color: $color-pink;
 }

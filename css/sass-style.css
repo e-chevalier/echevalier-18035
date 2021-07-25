@@ -34,6 +34,10 @@ body {
   color: #BC04BF;
 }
 
+.colorWhite {
+  color: #FAFAFA;
+}
+
 .bg-darkviolet {
   background-color: #1F0338;
 }
@@ -439,7 +443,7 @@ body {
 }
 
 .footer__goUp a {
-  color: #BC04BF;
+  color: #FAFAFA;
 }
 
 .footer__goUp a:hover {
@@ -472,7 +476,7 @@ body {
 }
 
 .button--theme-purple {
-  background: #BC04BF;
+  background: #D9048E;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid transparent;
 }
@@ -480,6 +484,6 @@ body {
 /**** CHANGE COLOR RADIO CHECK ****/
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #D9048E;
-  border-color: #BC04BF;
+  border-color: #D9048E;
 }
 /*# sourceMappingURL=sass-style.css.map */
