@@ -18,7 +18,7 @@
 }
 
 .viewGallery:hover {
-    transform: scale(0.9);
+    transform: scale(1.05);
     z-index: 100;
 
 }
