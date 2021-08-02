@@ -166,30 +166,6 @@ body{
     }
 }
 
-/***** MINI BANNER MOBILE ******/
-.miniBanner{
-    color: $main-font-color;
-    text-decoration: none;
-    text-align: center;
-    margin: 0 1.5em;
-}
-
-.miniBanner--gradient{
-    background: rgb(175,28,73);
-    background: linear-gradient(90deg, rgba(175,28,73,1) 23%, rgba(175,28,73,0.7399334733893557) 50%, rgba(255,15,189,0.5074404761904762) 82%);
-}
-
-.miniBanner--border{
-    border-radius: 0 100px 0 100px;
-}
-
-.miniBanner__text{
-    color: $main-font-color;
-    font-weight: $font-light;
-    font-size: 1.3em;
-}
-
-
 
 /*****************   BACKGROUNDS    *********************/
 

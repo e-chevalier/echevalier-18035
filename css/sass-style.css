@@ -252,30 +252,6 @@ body {
   color: #D9048E;
 }
 
-/***** MINI BANNER MOBILE ******/
-.miniBanner {
-  color: #FAFAFA;
-  text-decoration: none;
-  text-align: center;
-  margin: 0 1.5em;
-}
-
-.miniBanner--gradient {
-  background: #af1c49;
-  background: -webkit-gradient(linear, left top, right top, color-stop(23%, #af1c49), color-stop(50%, rgba(175, 28, 73, 0.739933)), color-stop(82%, rgba(255, 15, 189, 0.50744)));
-  background: linear-gradient(90deg, #af1c49 23%, rgba(175, 28, 73, 0.739933) 50%, rgba(255, 15, 189, 0.50744) 82%);
-}
-
-.miniBanner--border {
-  border-radius: 0 100px 0 100px;
-}
-
-.miniBanner__text {
-  color: #FAFAFA;
-  font-weight: 300;
-  font-size: 1.3em;
-}
-
 /*****************   BACKGROUNDS    *********************/
 @media all and (min-width: 375px) {
   .backgroundCocktails {
