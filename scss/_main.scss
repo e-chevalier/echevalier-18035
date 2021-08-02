@@ -70,14 +70,13 @@ body{
     position: relative;
     background-color: $main-bg-color;
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     overflow: hidden;
 }
 
 .banner--img{
-    height: 15%;
-    min-height: 10rem;
-    animation: kenburns-top 3s ease-out both;
+    height: 20vh;
+    min-height: 18rem;
 }
 
 .banner--video{
@@ -99,9 +98,27 @@ body{
     }
 }
 
+.banner__img{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
 .banner__container{
     position: relative;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
     z-index: 2;
+    span {
+        font-size: 4rem;
+    }
 }
 
 .banner__overlay{
