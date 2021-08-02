@@ -160,6 +160,9 @@ body{
         i{
             color: $color-pink;
         }
+        &:focus{
+            animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
     }
 }
 
@@ -214,12 +217,11 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
     img{
         transform: scale(1);
         transition: all 300ms ease-in-out;
+        &:hover{
+            transform: scale(1.05);
+            z-index: 100; 
+        }
     }
-    img:hover{
-        transform: scale(1.05);
-        z-index: 100;    
-    }
-
 }
 
 /***** EVENTS *****/
