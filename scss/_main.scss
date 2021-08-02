@@ -46,10 +46,6 @@ body{
     background-color: $main-bg-color;
 }
 
-.flickerAnimation{
-    animation: flicker 1.5s infinite alternate;
-}
-
 /**** FONTS ROBOTO *****/
 
 @each $k, $v in $font-weight-roboto {
@@ -81,6 +77,7 @@ body{
 .banner--img{
     height: 15%;
     min-height: 10rem;
+    animation: kenburns-top 3s ease-out both;
 }
 
 .banner--video{
