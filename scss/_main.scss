@@ -160,9 +160,6 @@ body{
         i{
             color: $color-pink;
         }
-        &:focus{
-            animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        }
     }
 }
 
@@ -263,6 +260,16 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
     }
     i{
         padding: 0 0.2em;
+    }
+}
+
+/******* GALLERY *****/
+
+.rt90{
+    i{
+        &:hover{
+            animation: rotate-90 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        } 
     }
 }
 
