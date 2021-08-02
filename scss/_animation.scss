@@ -1,7 +1,7 @@
 :root {
- /* Set neon color */
- --neon-text-color: #fe3875;
- --neon-border-color: #fe3875;
+/* Set neon color */
+--neon-text-color: $color-pink;
+--neon-border-color: $color-pink;
 }
 
 .scale{
@@ -23,16 +23,11 @@
 
 }
 
-.gradiente{
-    background: rgb(175,28,73);
-    background: linear-gradient(90deg, rgba(175,28,73,1) 23%, rgba(175,28,73,0.7399334733893557) 50%, rgba(255,15,189,0.5074404761904762) 82%);
-}
-
 /* Animate neon flicker */
 @keyframes flicker {
     
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-      
+        
         text-shadow:
             -0.2rem -0.2rem 1rem #fff,
             0.2rem 0.2rem 1rem #fff,
