@@ -10,6 +10,22 @@ body{
     font-size: 1rem;
     font-family: $font-roboto;
     background-color: $main-bg-color;
+    scrollbar-width: thin;
+    scrollbar-color: $color-pink $color-darkviolet;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+    background: $color-darkviolet;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $color-pink ;
+    border-radius: 6px;
+    border: 3px solid $color-darkviolet;
 }
 
 /**** COLORS ****/
@@ -177,6 +193,10 @@ body{
         i{
             color: $color-pink;
         }
+    }
+    &:focus{
+        outline: 0;
+        box-shadow: none;
     }
 }
 
@@ -356,6 +376,10 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
     font-size: 1rem;
     margin: 2px 1px;
     cursor: pointer;
+    &:focus{
+        outline: 0;
+        box-shadow: none;
+    }
 }
 
 .button--hover{
