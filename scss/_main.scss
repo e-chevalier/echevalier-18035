@@ -86,7 +86,6 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     background-color: $main-bg-color;
     width: 100%;
-    margin-bottom: 3rem;
     overflow: hidden;
 }
 
@@ -96,7 +95,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .banner--video{
-    height: 90vh;
+    height: 100vh;
     min-height: 25rem;
 }
 
@@ -316,7 +315,6 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
     font-family: $font-cabin;
     background-color: $main-bg-color;
     color: $main-font-color;
-    margin-top: 5rem;
     p{
         margin: 0;
         padding: 0;

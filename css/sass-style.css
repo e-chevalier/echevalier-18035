@@ -305,7 +305,6 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   background-color: #080808;
   width: 100%;
-  margin-bottom: 3rem;
   overflow: hidden;
 }
 
@@ -315,7 +314,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .banner--video {
-  height: 90vh;
+  height: 100vh;
   min-height: 25rem;
 }
 
@@ -609,7 +608,6 @@ body::-webkit-scrollbar-thumb {
   font-family: "Cabin", sans-serif;
   background-color: #080808;
   color: #FAFAFA;
-  margin-top: 5rem;
 }
 
 .footer p {
