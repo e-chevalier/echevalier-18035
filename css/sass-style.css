@@ -141,7 +141,7 @@
 }
 
 .kenburns-right {
-  animation: kenburns-right 3s ease-out reverse both;
+  animation: kenburns-right 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) reverse both;
 }
 
 /**
