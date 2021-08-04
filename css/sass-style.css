@@ -192,7 +192,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #080808;
   scrollbar-width: thin;
-  scrollbar-color: #D9048E #1F0338;
+  scrollbar-color: #D9048E #011a22;
 }
 
 body::-webkit-scrollbar {
@@ -200,13 +200,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #1F0338;
+  background: #011a22;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #D9048E;
   border-radius: 6px;
-  border: 3px solid #1F0338;
+  border: 3px solid #011a22;
 }
 
 /**** COLORS ****/
@@ -231,7 +231,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-darkviolet {
-  background-color: #1F0338;
+  background-color: #011a22;
 }
 
 .border-purple {
@@ -618,11 +618,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer__schedule {
-  background-color: #1F0338;
+  background-color: #011a22;
 }
 
 .footer__socialMedia {
-  background-color: #1F0338;
+  background-color: #011a22;
   color: #FAFAFA;
 }
 
@@ -635,7 +635,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer__address {
-  background-color: #1F0338;
+  background-color: #011a22;
   color: #FAFAFA;
   font-size: 1rem;
 }
@@ -661,7 +661,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer--bgGray {
-  background-color: #1F0338;
+  background-color: #011a22;
 }
 
 /**** BUTTON ****/
@@ -684,7 +684,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .button--hover:hover {
-  border: 2px solid #1F0338;
+  border: 2px solid #011a22;
 }
 
 .button--theme-purple {
