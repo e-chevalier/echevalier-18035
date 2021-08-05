@@ -85,18 +85,36 @@
 	<div class="container-fluid d-block px-0">
 		<div class="banner banner--video">
 
-			<div class="banner__overlay banner__overlay--hard"></div>
+			<div class="banner__overlay banner__overlay--soft"></div>
 			<div class="d-block banner__img">
 				<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
 					<div class="carousel-inner">
 					  <div class="carousel-item active">
-						  <img src="./assets/img/home/home_375_1.jpg" class="d-block w-100" alt="...">
+							<img srcset="./assets/img/home/home_375_1.jpg 375w,
+						  				./assets/img/home/home_768_1.jpg 768w,
+									    ./assets/img/home/home_1920_1.jpg 1920w"
+							  sizes="(max-width: 380px) 200px,
+										(max-width: 768px) 600px,
+										1920px"
+						  		 src="./assets/img/home/home_1920_1.jpg" class="d-block w-100" alt="photoHome1">
 					  </div>
 					  <div class="carousel-item">
-						<img src="./assets/img/home/home_375_2.jpg" class="d-block w-100" alt="...">
+						<img srcset="./assets/img/home/home_375_2.jpg 375w,
+									 ./assets/img/home/home_768_2.jpg 768w,
+					  				 ./assets/img/home/home_1920_2.jpg 1920w"
+							 sizes="(max-width: 380px) 200px,
+					  				(max-width: 768px) 600px,
+					  				1920px" 
+							 src="./assets/img/home/home_1920_2.jpg" class="d-block w-100" alt="photoHome2">
 					  </div>
 					  <div class="carousel-item">
-						<img src="./assets/img/home/home_375_3.jpg" class="d-block w-100" alt="...">
+						<img srcset="./assets/img/home/home_375_3.jpg 375w,
+									 ./assets/img/home/home_768_3.jpg 768w,
+						  			 ./assets/img/home/home_1920_3.jpg 1920w"
+							 sizes="(max-width: 380px) 200px,
+						 			(max-width: 768px) 600px,
+						 			1920px" 
+							 src="./assets/img/home/home_1920_3.jpg" class="d-block w-100" alt="photoHome3">
 					  </div>
 					</div>
 				</div>
