@@ -25,8 +25,8 @@
 		<nav class="navbar navbar-expand-lg navbar-custom">
 			<div class="d-flex w-25 order-0">
 				<a class="navbar-brand navbar-custom__brand" href="./index.html">
-					<img class="wow animate__animated animate__zoomIn animate__faster"
-						src="assets/icons/logo_small.png" alt="Mi Logo">
+					<img class="wow animate__animated animate__zoomIn animate__faster" src="assets/icons/logo_small.png"
+						alt="Mi Logo">
 				</a>
 			</div>
 			<div class="navbar-collapse collapse justify-content-center order-2 order-lg-1 navbar-custom__link navbar-custom__link--colorPink"
@@ -70,63 +70,94 @@
 		</div>
 		<!--FIN BANNER -->
 
-		<div class="container p-0 my-5 py-5">
+		<div class="container px-0 my-5 py-5">
+			<div class="row offset-1 col-10">
+				<div class="col-12 col-md-12 col-lg-6 px-0 py-4 pt-lg-0 px-lg-4">
+					<form action="#" method="POST">
+						<div>
+							<div>
+								<select name="events" class="custom-select my-3">
+									<option selected>Seleccione Evento</option>
+									<option value="10">Boris Brejcha - 15/07/2021 - 23hs</option>
+									<option value="11">Nina Kraviz - 24/07/2021 - 23hs</option>
+									<option value="12">Marshmello - 06/08/2021 - 00hs</option>
+									<option value="13">Solomun - 14/08/2021 - 22hs</option>
+								</select>
+							</div>
 
-			<!-- <div class="row offset-2 col-8 my-4 py-5"></div> -->
-			<div class="d-flex flex-column align-items-center offset-1 col-10">
-				<form action="#" method="POST">
-					<div>
-						<div class="form-group">
-							<label for="formGroupName">Nombre</label>
-							<input type="text" class="form-control" id="formGroupName" placeholder="John">
+							<div class="d-block py-3">
+								<div class="h6 font-weight-bold"> CANTIDAD DE PERSONAS </div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="op1" name="entradas" class="custom-control-input" checked>
+									<label class="custom-control-label" for="op1">1</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="op2" name="entradas" class="custom-control-input">
+									<label class="custom-control-label" for="op2">2</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="op3" name="entradas" class="custom-control-input">
+									<label class="custom-control-label" for="op3">3</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="op4" name="entradas" class="custom-control-input">
+									<label class="custom-control-label" for="op4">4</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="op5" name="entradas" class="custom-control-input">
+									<label class="custom-control-label" for="op5">5</label>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="formGroupName">Nombre</label>
+								<input type="text" class="form-control" id="formGroupName" placeholder="John">
+							</div>
+							<div class="form-group">
+								<label for="formGroupApellido">Apellido</label>
+								<input type="text" class="form-control" id="formGroupApellido" placeholder="Doe">
+							</div>
+							<div class="form-group">
+								<label for="formGroupApellido">DNI</label>
+								<input type="text" class="form-control" id="formGroupDNI" placeholder="33666999">
+							</div>
+							<div class="form-group">
+								<label for="formControlEmail">Email address</label>
+								<input type="email" class="form-control" id="formControlEmail"
+									placeholder="name@example.com">
+							</div>
 						</div>
-						<div class="form-group">
-							<label for="formGroupApellido">Apellido</label>
-							<input type="text" class="form-control" id="formGroupApellido" placeholder="Doe">
+
+						<div class="form-group mt-4">
+							<button type="button" class="button button--hover button--theme-purple" data-toggle="modal"
+								data-target="#modalMessage">SOLICITAR RESERVA</button>
 						</div>
-						<div class="form-group">
-							<label for="formGroupApellido">DNI</label>
-							<input type="text" class="form-control" id="formGroupDNI" placeholder="33666999">
-						</div>
-						<div class="form-group">
-							<label for="formControlEmail">Email address</label>
-							<input type="email" class="form-control" id="formControlEmail"
-								placeholder="name@example.com">
-						</div>
-						<span class="h6 font-weight-bold pr-3">CANTIDAD DE PERSONAS :</span>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input type="radio" id="op1" name="entradas" class="custom-control-input" checked>
-							<label class="custom-control-label" for="op1">1</label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input type="radio" id="op2" name="entradas" class="custom-control-input">
-							<label class="custom-control-label" for="op2">2</label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input type="radio" id="op3" name="entradas" class="custom-control-input">
-							<label class="custom-control-label" for="op3">3</label>
-						</div>
-						<div class="custom-control custom-radio custom-control-inline">
-							<input type="radio" id="op4" name="entradas" class="custom-control-input">
-							<label class="custom-control-label" for="op4">4</label>
+					</form>
+				</div>
+				<div class="col-12 col-md-12 col-lg-6 px-0 py-4 pt-lg-0 px-lg-4">
+					<div id="carouselReservations" class="carousel slide carousel-fade" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselReservations" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselReservations" data-slide-to="1"></li>
+							<li data-target="#carouselReservations" data-slide-to="2"></li>
+							<li data-target="#carouselReservations" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="./assets/img/events/event_1.jpg" class="d-block w-100" alt="Boris Brejcha">
+							</div>
+							<div class="carousel-item">
+								<img src="./assets/img/events/event_2.jpg" class="d-block w-100" alt="Nina Kraviz">
+							</div>
+							<div class="carousel-item">
+								<img src="./assets/img/events/event_3.jpg" class="d-block w-100" alt="Marshmello">
+							</div>
+							<div class="carousel-item">
+								<img src="./assets/img/events/event_4.jpg" class="d-block w-100" alt="Solomun">
+							</div>
 						</div>
 					</div>
-
-					<div>
-						<select name="events" class="custom-select my-3">
-							<option selected>Seleccione Evento</option>
-							<option value="10">Boris Brejcha - 15/07/2021 - 23hs</option>
-							<option value="11">Nina Kraviz - 24/07/2021 - 23hs</option>
-							<option value="12">Marshmello - 06/08/2021 - 00hs</option>
-							<option value="13">Solomun - 14/08/2021 - 22hs</option>
-						</select>
-					</div>
-					<div class="form-group mt-4">
-						<button type="button" class="button button--hover button--theme-purple" data-toggle="modal"
-							data-target="#modalMessage">SOLICITAR RESERVA</button>
-					</div>
-				</form>
-
+				</div>
 			</div>
 		</div>
 
