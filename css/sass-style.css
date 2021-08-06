@@ -313,24 +313,26 @@ body::-webkit-scrollbar-thumb {
   min-height: 18rem;
 }
 
-.banner--video {
+.banner--home {
   height: 100vh;
   min-height: 25rem;
 }
 
-.banner__video.embed-responsive {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+/*
+.banner__video{
+    &.embed-responsive {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
-
+*/
 .banner__img {
   position: absolute;
   min-width: 100%;
@@ -402,6 +404,7 @@ body::-webkit-scrollbar-thumb {
 /* Change the link color */
 .navbar-custom__link .navbar-nav .nav-link {
   color: #FAFAFA;
+  font-size: 1.2rem;
 }
 
 /* Change the color of active or hovered links */
@@ -520,6 +523,31 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/**** Home ****/
+.card-link {
+  font-size: 1.3rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  border: 2px solid #D9048E;
+  text-align: center;
+}
+
+.card-link a {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.card-link a:hover {
+  color: #D9048E;
+  border-color: #D9048E;
+}
+
+.card-size {
+  min-width: 12rem;
+  max-width: 16rem;
+}
+
 /**** COCKTAILS ****/
 .cocktail {
   color: #FAFAFA;
@@ -538,7 +566,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .cocktail--size {
-  max-width: 300px;
+  min-width: 12rem;
+  max-width: 16rem;
 }
 
 .cocktail--scale img {

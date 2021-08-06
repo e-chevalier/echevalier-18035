@@ -94,11 +94,12 @@ body::-webkit-scrollbar-thumb {
     min-height: 18rem;
 }
 
-.banner--video{
+.banner--home{
     height: 100vh;
     min-height: 25rem;
 }
 
+/*
 .banner__video{
     &.embed-responsive {
         position: absolute;
@@ -112,6 +113,7 @@ body::-webkit-scrollbar-thumb {
         transform: translateX(-50%) translateY(-50%);
     }
 }
+*/
 
 .banner__img{
     position: absolute;
@@ -176,6 +178,7 @@ body::-webkit-scrollbar-thumb {
 .navbar-custom__link{
     & .navbar-nav .nav-link {
         color: $main-font-color;
+        font-size: 1.2rem;
     }
 }
 
@@ -223,6 +226,31 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 
 }
 
+/**** Home ****/
+
+.card-link{
+    font-size: 1.3rem;
+    font-family: $font-cabin;
+    font-weight: $font-semi-bold;
+    font-style: italic;
+    border: 2px solid $color-pink;
+    text-align: center;
+    
+    a{
+        text-decoration: none;
+        color: $main-font-color;
+        &:hover{
+            color: $color-pink;
+            border-color: $color-pink;
+        }
+    }
+}
+
+.card-size{
+    min-width: 12rem; 
+    max-width: 16rem;
+}
+
 /**** COCKTAILS ****/
 
 .cocktail{
@@ -242,7 +270,8 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 }
 
 .cocktail--size{
-    max-width: 300px;
+    min-width: 12rem; 
+    max-width: 16rem;
 }
 
 .cocktail--scale{
