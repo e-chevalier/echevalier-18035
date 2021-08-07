@@ -1,7 +1,18 @@
+/* custom reset */
+
 *{
     margin: 0;
     padding: 0;
 }
+
+button, input, a{
+    &:focus, &:focus-visible{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/*******/
 
 body{
     color: $main-font-color;
@@ -179,10 +190,6 @@ body::-webkit-scrollbar-thumb {
         i{
             color: $color-pink;
         }
-    }
-    &:focus{
-        outline: 0;
-        box-shadow: none;
     }
 }
 
@@ -387,10 +394,6 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
     font-size: 1rem;
     margin: 2px 1px;
     cursor: pointer;
-    &:focus{
-        outline: 0;
-        box-shadow: none;
-    }
 }
 
 .button--hover{

@@ -179,11 +179,19 @@
           animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
+/* custom reset */
 * {
   margin: 0;
   padding: 0;
 }
 
+button:focus, button:focus-visible, input:focus, input:focus-visible, a:focus, a:focus-visible {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/*******/
 body {
   color: #FAFAFA;
   font-style: normal;
@@ -400,12 +408,6 @@ body::-webkit-scrollbar-thumb {
 /* Change the color of toogler */
 .navbar-custom__toogler.navbar-toggler i {
   color: #D9048E;
-}
-
-.navbar-custom__toogler:focus {
-  outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 
 /*****************   BACKGROUNDS    *********************/
@@ -687,12 +689,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 1rem;
   margin: 2px 1px;
   cursor: pointer;
-}
-
-.button:focus {
-  outline: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 
 .button--hover:hover {
