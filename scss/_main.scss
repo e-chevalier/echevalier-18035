@@ -217,15 +217,22 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 
 }
 
-/**********  Home Image ***********/
-.bgCocktailsHome{
-    background-image: url("../assets/img/home/cocktails_400.jpg");
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: 400px;
+
+/*** Media Query cardDeck fix ***/
+
+#cardDeckMQ{
+    @media all and (max-width: 906px ){
+
+        .card-deck {
+            justify-content: center;
+            .card {
+                min-width: 17rem; 
+                max-width: 26rem;
+            }
+        }
+    }
 }
+
 
 /**** Home ****/
 
