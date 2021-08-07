@@ -217,6 +217,16 @@ $pages: Cocktails, Contact, Events, Reservations, Gallery;
 
 }
 
+/**********  Home Image ***********/
+.bgCocktailsHome{
+    background-image: url("../assets/img/home/cocktails_400.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+}
+
 /**** Home ****/
 
 .card-link{
