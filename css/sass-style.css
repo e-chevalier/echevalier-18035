@@ -524,6 +524,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 /**** Home ****/
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: #080d15;
+  opacity: .3;
+}
+
+.logoHome {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
 .card-link {
   font-size: 1.3rem;
   font-family: "Cabin", sans-serif;

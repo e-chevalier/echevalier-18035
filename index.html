@@ -60,49 +60,56 @@
 
 	<!-- HOME -->
 	<div class="container-fluid d-block px-0">
-		<div class="banner banner--home">
-			<div class="banner__overlay banner__overlay--soft"></div>
-			<div class="banner__img">
-				<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img srcset="./assets/img/home/home_375_1.jpg 375w,
-						  				./assets/img/home/home_768_1.jpg 768w,
-									    ./assets/img/home/home_1920_1.jpg 1920w" sizes="(max-width: 380px) 200px,
-										(max-width: 768px) 600px,
-										1920px" src="./assets/img/home/home_1920_1.jpg" class="d-block vh-100" alt="photoHome1">
-						</div>
-						<div class="carousel-item">
-							<img srcset="./assets/img/home/home_375_2.jpg 375w,
-									 ./assets/img/home/home_768_2.jpg 768w,
-					  				 ./assets/img/home/home_1920_2.jpg 1920w" sizes="(max-width: 380px) 200px,
-					  				(max-width: 768px) 600px,
-					  				1920px" src="./assets/img/home/home_1920_2.jpg" class="d-block vh-100 kenburns-right" alt="photoHome2">
-						</div>
-						<div class="carousel-item">
-							<img srcset="./assets/img/home/home_375_3.jpg 375w,
-									 ./assets/img/home/home_768_3.jpg 768w,
-						  			 ./assets/img/home/home_1920_3.jpg 1920w" sizes="(max-width: 380px) 200px,
-						 			(max-width: 768px) 600px,
-						 			1920px" src="./assets/img/home/home_1920_3.jpg" class="d-block vh-100 kenburns-right" alt="photoHome3">
-						</div>
-					</div>
+
+		<div id="homeCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-interval="5000">
+					<img 
+						srcset="./assets/img/home/home_375_1.jpg 375w,
+								./assets/img/home/home_768_1.jpg 768w,
+							    ./assets/img/home/home_1024_1.jpg 1024w,
+							    ./assets/img/home/home_1920_1.jpg 1920w" 
+						sizes="(max-width: 376px) 200px,
+							   (max-width: 768px) 400px,
+							   (max-width: 1024px) 600px,
+							   1920px" 
+						src="./assets/img/home/home_1920_1.jpg" class="d-block w-100 kenburns-right" alt="photoHome1">
 				</div>
-			</div>
-			<div class="banner__container">
-				<div class="d-flex text-center align-items-center">
-					<div>
-						<img class="img-fluid w-50 wow animate__animated animate__zoomIn animate__slow animate__delay-2s mb-4"
-							src="./assets/img/logoLarge.png" alt="goblet">
-						<div>
-						</div>
-					</div>
+				<div class="carousel-item" data-interval="5000">
+					<img
+						srcset="./assets/img/home/home_375_2.jpg 375w,
+								./assets/img/home/home_768_2.jpg 768w,
+								./assets/img/home/home_1024_2.jpg 1024w,
+								./assets/img/home/home_1920_2.jpg 1920w" 
+						sizes="(max-width: 376px) 200px,
+						  	   (max-width: 768px) 400px,
+						       (max-width: 1024px) 600px,
+						  		1920px"
+						src="./assets/img/home/home_1920_2.jpg" class="d-block w-100 kenburns-right" alt="photoHome2">
+				</div>
+				<div class="carousel-item" data-interval="5000">
+					<img 
+						srcset="./assets/img/home/home_375_3.jpg 375w,
+								./assets/img/home/home_768_3.jpg 768w,
+								./assets/img/home/home_1024_3.jpg 1024w,
+								./assets/img/home/home_1920_3.jpg 1920w" 
+						sizes="(max-width: 376px) 200px,
+							   (max-width: 768px) 400px,
+						       (max-width: 1024px) 600px,
+						 	   1920px"
+						src="./assets/img/home/home_1920_3.jpg" class="d-block w-100 kenburns-right" alt="photoHome3">
+				</div>
+				<div class="overlay"></div>
+				<div class="d-flex flex-row justify-content-center align-items-center logoHome">
+					<img class="img-fluid w-50 wow animate__animated animate__zoomIn animate__slow animate__delay-2s mb-4"
+						src="./assets/img/logoLarge.png" alt="goblet">
+						
 				</div>
 			</div>
 		</div>
 
-		<div id="cardDeckMQ" class="container-fluid p-0 my-4 py-5" >
-			<div class="d-flex flex-row justify-content-center mx-4 card-deck-wrappe" >
+		<div id="cardDeckMQ" class="container-fluid p-0 my-4 py-5">
+			<div class="d-flex flex-row justify-content-center mx-4 card-deck-wrappe">
 				<div class="card-deck">
 					<div class="card card-size border-top-0 border-right-0 border-left-0 border-bottom ">
 						<img src="./assets/img/home/cocktails_400.jpg" class="card-img-top" alt="COCKTAILS">
