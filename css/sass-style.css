@@ -316,6 +316,39 @@ body::-webkit-scrollbar-thumb {
 
 /**
  * ----------------------------------------
+ * CUSTOM NAVBAR - Style
+ * ----------------------------------------
+ */
+/* Change background color */
+.navbar-custom {
+  background-color: #080808;
+  color: #FAFAFA;
+  font-family: "Cabin", sans-serif;
+}
+
+/* Change the brand and text color */
+.navbar-custom__brand.navbar-brand, .navbar-custom__brand .navbar-text {
+  color: #FAFAFA;
+}
+
+/* Change the link color */
+.navbar-custom__link .navbar-nav .nav-link {
+  color: #FAFAFA;
+  font-size: 1.2rem;
+}
+
+/* Change the color of active or hovered links */
+.navbar-custom__link--colorPink .nav-item.active .nav-link, .navbar-custom__link--colorPink .nav-item:focus .nav-link, .navbar-custom__link--colorPink .nav-item:hover .nav-link {
+  color: #D9048E;
+}
+
+/* Change the color of toogler */
+.navbar-custom__toogler.navbar-toggler i {
+  color: #D9048E;
+}
+
+/**
+ * ----------------------------------------
  * Banner - Style
  * ----------------------------------------
  */
@@ -365,7 +398,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .banner__container span {
-  font-size: 4rem;
+  font-size: 3.8rem;
 }
 
 .banner__overlay {
@@ -393,43 +426,10 @@ body::-webkit-scrollbar-thumb {
 
 /**
  * ----------------------------------------
- * CUSTOM NAVBAR - Style
- * ----------------------------------------
- */
-/* Change background color */
-.navbar-custom {
-  background-color: #080808;
-  color: #FAFAFA;
-  font-family: "Cabin", sans-serif;
-}
-
-/* Change the brand and text color */
-.navbar-custom__brand.navbar-brand, .navbar-custom__brand .navbar-text {
-  color: #FAFAFA;
-}
-
-/* Change the link color */
-.navbar-custom__link .navbar-nav .nav-link {
-  color: #FAFAFA;
-  font-size: 1.2rem;
-}
-
-/* Change the color of active or hovered links */
-.navbar-custom__link--colorPink .nav-item.active .nav-link, .navbar-custom__link--colorPink .nav-item:focus .nav-link, .navbar-custom__link--colorPink .nav-item:hover .nav-link {
-  color: #D9048E;
-}
-
-/* Change the color of toogler */
-.navbar-custom__toogler.navbar-toggler i {
-  color: #D9048E;
-}
-
-/**
- * ----------------------------------------
  * BACKGROUNDS - generate bg for banners
  * ----------------------------------------
  */
-@media all and (min-width: 375px) {
+@media all and (min-width: 320px) {
   .backgroundCocktails {
     background-image: url("../assets/img/cocktails-bgImage-extra-small.jpg");
     background-size: cover;
