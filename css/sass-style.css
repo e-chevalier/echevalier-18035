@@ -179,19 +179,41 @@
           animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-/* custom reset */
+/**
+ * ----------------------------------------
+ * Custom Reset
+ * ----------------------------------------
+ */
 * {
   margin: 0;
   padding: 0;
 }
 
-button:focus, button:focus-visible, input:focus, input:focus-visible, a:focus, a:focus-visible {
+/*** Remove focus for button, input, select, a ***/
+button:focus, button:focus-visible, input:focus, input:focus-visible, select:focus, select:focus-visible, a:focus, a:focus-visible {
   outline: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
-/*******/
+/*** Hide Arrows From Input Number ***/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/**
+ * ----------------------------------------
+ * Boddy - Style
+ * ----------------------------------------
+ */
 body {
   color: #FAFAFA;
   font-style: normal;
@@ -204,7 +226,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {
@@ -217,17 +239,13 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #011a22;
 }
 
-/**** COLORS ****/
-.bg-pink {
-  background-color: #D9048E;
-}
-
+/**
+ * ----------------------------------------
+ * Colors class
+ * ----------------------------------------
+ */
 .colorPink {
   color: #D9048E;
-}
-
-.bg-purple {
-  background-color: #BC04BF;
 }
 
 .colorPurple {
@@ -238,19 +256,32 @@ body::-webkit-scrollbar-thumb {
   color: #FAFAFA;
 }
 
-.bg-darkviolet {
-  background-color: #011a22;
+/**
+ * ----------------------------------------
+ * Background colors
+ * ----------------------------------------
+ */
+.bg-pink {
+  background-color: #D9048E;
 }
 
-.border-purple {
-  border-top: #D9048E 3px solid;
-  border-bottom: #D9048E 3px solid;
+.bg-purple {
+  background-color: #BC04BF;
+}
+
+.bg-darkviolet {
+  background-color: #011a22;
 }
 
 .bg-black {
   background-color: #080808;
 }
 
+/**
+ * ----------------------------------------
+ * FONTS - generate fonts class 
+ * ----------------------------------------
+ */
 /**** FONTS ROBOTO *****/
 .roboto-thin {
   font-family: "Roboto", sans-serif;
@@ -308,7 +339,11 @@ body::-webkit-scrollbar-thumb {
   font-weight: 900;
 }
 
-/**** BANNER ****/
+/**
+ * ----------------------------------------
+ * Banner - Style
+ * ----------------------------------------
+ */
 .banner {
   position: relative;
   background-color: #080808;
@@ -381,7 +416,11 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.7;
 }
 
-/****** NAVBAR  ************/
+/**
+ * ----------------------------------------
+ * CUSTOM NAVBAR - Style
+ * ----------------------------------------
+ */
 /* Change background color */
 .navbar-custom {
   background-color: #080808;
@@ -410,7 +449,11 @@ body::-webkit-scrollbar-thumb {
   color: #D9048E;
 }
 
-/*****************   BACKGROUNDS    *********************/
+/**
+ * ----------------------------------------
+ * BACKGROUNDS - generate bg for banners
+ * ----------------------------------------
+ */
 @media all and (min-width: 375px) {
   .backgroundCocktails {
     background-image: url("../assets/img/cocktails-bgImage-extra-small.jpg");
@@ -510,7 +553,12 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-/*** Media Query cardDeck fix ***/
+/**
+ * ----------------------------------------
+ * CardDeck - Media Query  
+ * ----------------------------------------
+ */
+/****  Prevents the carddeck from splitting into 2 lines ****/
 @media all and (max-width: 906px) {
   #cardDeckMQ .card-deck {
     -webkit-box-pack: center;
@@ -523,7 +571,11 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-/**** Home ****/
+/**
+ * ----------------------------------------
+ * Home - Style 
+ * ----------------------------------------
+ */
 .overlay {
   position: absolute;
   width: 100%;
@@ -564,7 +616,11 @@ body::-webkit-scrollbar-thumb {
   max-width: 16rem;
 }
 
-/**** COCKTAILS ****/
+/**
+ * ----------------------------------------
+ * Cocktails - Style 
+ * ----------------------------------------
+ */
 .cocktail {
   color: #FAFAFA;
   background-color: #080808;
@@ -599,7 +655,11 @@ body::-webkit-scrollbar-thumb {
   z-index: 100;
 }
 
-/***** EVENTS *****/
+/**
+ * ----------------------------------------
+ * Events - Style 
+ * ----------------------------------------
+ */
 .event {
   background-color: #080808;
   color: #FAFAFA;
@@ -642,13 +702,22 @@ body::-webkit-scrollbar-thumb {
   padding: 0 0.2em;
 }
 
-/******* GALLERY *****/
+/**
+ * ----------------------------------------
+ * Gallery 
+ * ----------------------------------------
+ */
+/**** Rotate the close button of the modal ****/
 .rt90 i:hover {
   -webkit-animation: rotate-90 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
           animation: rotate-90 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
-/******* FOOTER ******/
+/**
+ * ----------------------------------------
+ * Footer - Style
+ * ----------------------------------------
+ */
 .footer {
   font-family: "Cabin", sans-serif;
   background-color: #080808;
@@ -707,7 +776,11 @@ body::-webkit-scrollbar-thumb {
   background-color: #011a22;
 }
 
-/**** BUTTON ****/
+/**
+ * ----------------------------------------
+ * Button - Style
+ * ----------------------------------------
+ */
 .button {
   border: none;
   color: #FAFAFA;
@@ -730,9 +803,15 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid transparent;
 }
 
-/**** CHANGE COLOR RADIO CHECK ****/
+/**
+ * ----------------------------------------
+ * Custom radio color. (Pink)
+ * ----------------------------------------
+ */
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
   background-color: #D9048E;
   border-color: #D9048E;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 /*# sourceMappingURL=sass-style.css.map */
