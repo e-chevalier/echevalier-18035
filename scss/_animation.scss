@@ -94,23 +94,6 @@
   animation: kenburns-right 3s cubic-bezier(0.600, -0.280, 0.735, 0.045) reverse both;
 }
 
-/**
- * ----------------------------------------
- * animation text-focus-in
- * ----------------------------------------
- */
-
-@keyframes text-focus-in {
-  0% {
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-.text-focus-in {
-  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+.kenburns-right-easeOut {
+  animation: kenburns-right 5s ease-out forwards;
 }
